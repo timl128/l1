@@ -1,10 +1,10 @@
 # README #
 
 This application is built with Spring boot. 
-The application runs at port 8082.
+The application runs at port 8083.
 
 ### Assumption
-If the recipe contains unknown ingredients which they are not in the ingredient list. 
+If the recipe contains unknown ingredients which they are not in the ingredients list. 
 Then the recipe will be considered as invalid.
 
 ### Requirement
@@ -16,7 +16,7 @@ Then the recipe will be considered as invalid.
 ### How do I get set up? ###
 
 1. Download the source code from the git hub
-2. And set up System environment variables for connecting to external API
+2. And set up System environment variables for connecting to external API(Optional)
 
 ```
 KITCHEN_URL=
@@ -28,7 +28,7 @@ The default value of kitchen external API endpoint  `http://188.166.243.95`
 - http://188.166.243.95/recipes.php
 - http://188.166.243.95/ingredients.php
 
-The default value of LOCAL_DATA is true which means it loads local JSON file
+The default value of LOCAL_DATA is true which means it loads local JSON file.
 
 
 
