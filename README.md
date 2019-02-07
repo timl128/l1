@@ -89,4 +89,9 @@ docker run -p 8083:8083 lunch/api
 ```
 You can access the application at port 8083.
 
+### Efficiency
+
+The efficiency of checking the ingredients is O(n).
+The efficiency of checking the recipes is O(n^2). Getting status from hash map is O(1).
+So overall efficency is `O(n^2 +n) = O(n^2)`
 
