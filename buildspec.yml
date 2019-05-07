@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - ./gradlew build -x test
+artifacts:
+  files:
+    - build/libs/lunch-0.0.0.0.jar
+  discard-paths: yes
