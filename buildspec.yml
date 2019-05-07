@@ -4,8 +4,7 @@ phases:
   build:
     commands:
       - bash -c "source /opt/sdkman/bin/sdkman-init.sh && source /root/.nvm/nvm.sh"      
-      - chmod +x gradlew
-      - ./gradlew build -x test
+      - gradle build -x test
 artifacts:
   files:
     - build/libs/lunch-0.0.0.0.jar
