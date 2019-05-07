@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - export JAVA_HOME=/opt/sdkman/candidates/java/current/bin/java     
       - bash -c "source /opt/sdkman/bin/sdkman-init.sh && source /root/.nvm/nvm.sh"      
       - /opt/sdkman/candidates/gradle/current/bin/gradle build -x test
 artifacts:
